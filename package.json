@@ -1,0 +1,28 @@
+{
+  "name": "at-tec",
+  "version": "0.0.30",
+  "description": "AT das matérias tecnicas",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/habdig7oficial/AT-julie-mateus-maria.git"
+  },
+  "author": "Julie, Maria, Mateus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/habdig7oficial/AT-julie-mateus-maria/issues"
+  },
+  "homepage": "https://github.com/habdig7oficial/AT-julie-mateus-maria#readme",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.9",
+    "multer": "^1.4.4"
+  }
+}
