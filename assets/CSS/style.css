@@ -286,8 +286,8 @@ body.full-width {
 }
 
 .form-group button:hover {
-    background: #FFFFFF;
-    color: #0A1128;
+    background: #fcc30b;
+    color: #fff;
 }
 
 .form-group ::placeholder {
