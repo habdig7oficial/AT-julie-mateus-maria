@@ -9,6 +9,6 @@ const consign = require("consign")
 
 consign().include("./routes/").into(app)
 
-const porta = 7777 || process.env.PORT
+const porta = process.env.PORT || 7777  
 
 module.exports = {app, porta}
