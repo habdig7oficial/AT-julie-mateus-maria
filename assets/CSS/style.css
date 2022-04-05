@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:wght@900&family=Open+Sans:ital, wght@o,400;0,700;1,400&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -22,11 +21,12 @@ body {
     font-size: 2rem;
     color: #fcc30b;
     line-height: 1.5;
+    flex-wrap: wrap;
 }
 
  h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
-    
+
 }
 
  h1 {
@@ -67,6 +67,9 @@ a {
     max-width: 120rem;
     margin: 0 auto;
     padding: 10rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
     
@@ -142,9 +145,14 @@ body.full-width {
 
 .close-menu {
     display: none;
+    background-color: #EEEEEE;
+    color: #fcc30b;
 }
 
-
+.textm{
+    display: flex;
+    justify-content: center;
+}
 
 .intro-content {
     
@@ -300,7 +308,7 @@ body.full-width {
     }
 
 .footer a {
-    color: #0A1128;
+    color: #fcc30b;
 }
 
 .heart {
@@ -323,7 +331,7 @@ body.full-width {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    color: #0A1128;
+    color: #fcc30b;
     transform: rotate(-90deg);
-    border: 0.1rem solid #0A1128;
+    border: 0.1rem solid #fcc30b;
 }
