@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:wght@900&family=Open+Sans:ital, wght@o,400;0,700;1,400&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
+::selection{
+    color: #fcc30b;
+    background-color: rgba(255,255,255,0.9);
 
+    
+}
 html {
 font-size: 62.5%;
 scroll-behavior: smooth;
@@ -13,12 +20,13 @@ scroll-behavior: smooth;
 body {
     font-family: "Open Sans", sans-serif;
     font-size: 2rem;
-    color: #0A1128;
+    color: #fcc30b;
     line-height: 1.5;
 }
 
  h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
+    
 }
 
  h1 {
@@ -35,18 +43,16 @@ h2 {
 
 h3 {
     font-size: 5rem;
+ 
 }
 
 a {
     text-decoration: none;
 }
 
-p{
-    margin-bottom: 3rem;
- }
 
 .main-bg {
-    background-image: url('../IMG/multer/1649104952460main-bg.svg');
+    background-color: #fcc30b;
     background-size: cover;
     background-position: center center;
     color: #FFFFFF;
@@ -54,13 +60,14 @@ p{
     
 .white-bg {
     background:#FFFFFF;
-    color: #0A1128;
+    color: #fcc30b;
 }
     
 .main-content {
     max-width: 120rem;
     margin: 0 auto;
     padding: 10rem 3rem;
+    
 }
     
 .section {
@@ -96,7 +103,8 @@ body.full-width {
 
 .menu h1 {
     font-size: 2.3rem;
-    color: #0A1128;
+    font-weight: bold;
+    color: #fcc30b;
 }
 
 .menu h1 a {
@@ -112,7 +120,7 @@ body.full-width {
     display: block;
     padding: 2rem;
     font-size: 1.8rem;
-    color: #0A1128;
+    color: #fcc30b;
     position: relative;
     }
    
@@ -139,6 +147,7 @@ body.full-width {
 
 
 .intro-content {
+    
     position: relative;
     /* top: -8rem; */
     display: grid;
@@ -152,6 +161,7 @@ body.full-width {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
+
 }
 
 .intro-img img
