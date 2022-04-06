@@ -127,10 +127,10 @@ body.full-width {
     position: relative;
     }
    
-.menu ul li a::be {
+.menu ul li a::after {
     content: "";
     position: absolute;
-    bottom: lrem;
+    bottom: 1rem;
     left: 50%;
     width: 0;
     height: 0.2rem;
@@ -363,7 +363,7 @@ body.full-width {
 @media (max-width:665px) {
 
     .item1{
-        font-size: 7vw;
+        font-size: vw;
     }
         
 }

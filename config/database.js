@@ -3,11 +3,13 @@ const mongoose = require('mongoose')
 
 const conexao = async() =>{
     /*conexão local*/
-    /*var bdlocal = await mongoose.connect('mongodb://localhost/at-1tri')*/
+    /**/
     /*conexao atlas*/
 
 
-    let atlas = await mongoose.connect (process.env.SCRIPTDB)
+    var bdlocal = await mongoose.connect('mongodb://localhost/at-1tri')
+
+    //let atlas = await mongoose.connect (process.env.SCRIPTDB)
 }
 
 module.exports = conexao
