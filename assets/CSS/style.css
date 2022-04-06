@@ -127,7 +127,7 @@ body.full-width {
     position: relative;
     }
    
-.menu ul li a::after {
+.menu ul li a::be {
     content: "";
     position: absolute;
     bottom: lrem;
@@ -334,4 +334,36 @@ body.full-width {
     color: #fcc30b;
     transform: rotate(-90deg);
     border: 0.1rem solid #fcc30b;
+}
+
+@media (max-width:1000px) {
+    .grid{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+    }
+    .ams{
+        display: flex;
+        word-break: break-all;
+        flex-wrap: wrap;
+
+    }
+
+    .main-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+        
+}
+
+@media (max-width:665px) {
+
+    .item1{
+        font-size: 7vw;
+    }
+        
 }
