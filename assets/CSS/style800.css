@@ -31,6 +31,7 @@
     text-align: center;
     padding: 0.5rem;
     cursor: pointer;
+    border: #FFFFFF solid 1px;
 }
 
 .close-menu:checked~.menu {

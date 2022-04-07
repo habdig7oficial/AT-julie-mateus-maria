@@ -363,7 +363,7 @@ body.full-width {
 @media (max-width:665px) {
 
     .item1{
-        font-size: vw;
+        font-size: 9vw;
     }
         
 }
